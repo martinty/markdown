@@ -1,80 +1,89 @@
-# Markdown text editor
-
+#  Markdown text editor
+  
+  
 Document to demonstrate markdown syntax. Using Visual Studio Code with these extensions:
-
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-- [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-
-Can also use online editor [Drillinger](https://dillinger.io/)
-
-## Testing
-
+  
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint )
+- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced )
+- [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf )
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker )
+  
+Can also use online editor [Drillinger](https://dillinger.io/ )
+  
+##  Testing
+  
+  
 &#8594;
-
+  
 Here's a sentence with a footnote. [^1]
-
+  
 [^1]: This is the footnote.
-
+  
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-
-## Math
-
-$$x = \frac{5 \delta}{\pi}$$
-
-## Hyperlink
-
-[VG](https://www.vg.no/)
-
-## Code
-
+  
+##  Math
+  
+  
+<p align="center"><img src="https://latex.codecogs.com/gif.latex?x%20=%20&#x5C;frac{5%20&#x5C;delta}{&#x5C;pi}"/></p>  
+  
+  
+##  Hyperlink
+  
+  
+[VG](https://www.vg.no/ )
+  
+##  Code
+  
+  
 ```c++
 // C++ code
 #include <iostream>
-
+  
 int main(){
     std::cout << "Hello world!\n";
     return 0;
 }
 ```
-
+  
 ```py
 # Python code
 import numpy as np
 for i in range(4):
     print(np.pi/2 * i)
 ```
-
+  
 ```sh
 sudo apt update
 ```
-
+  
 ```makefile
 INSTALL_DIR=/usr/local
 INSTALL_DIR_INCLUDE=$(INSTALL_DIR)/include/Graph_lib
 INSTALL_DIR_LIB=$(INSTALL_DIR)/lib/Graph_lib
 ```
-
+  
 ```js
 "externalConsole": true,
 ```
-
-## Tables
-
+  
+##  Tables
+  
+  
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
-
-## Quote
-
+  
+##  Quote
+  
+  
 > Code hard, or go home!
-
-## Folders
-
+  
+##  Folders
+  
+  
 En fornuftig organisering av øvingene i faget kan se slik ut:
 📦 TDT4102
  ┣ 📂 ov01
@@ -88,42 +97,46 @@ En fornuftig organisering av øvingene i faget kan se slik ut:
  ┣ 📂 ov03
  ┣ 📂 ov04
  ┣ 📂 ...
-
-## Todos
-
+  
+##  Todos
+  
+  
 - Write MORE Tests
 - Add Night Mode
-
+  
 1. First
 2. Second
-
-## Testing DONE
-
-## Dillinger
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
+  
+##  Testing DONE
+  
+  
+##  Dillinger
+  
+  
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png )](https://nodesource.com/products/nsolid)
+  
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master )](https://travis-ci.org/joemccann/dillinger)
+  
 Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-
+  
 - Type some Markdown on the left
 - See HTML in the right
 - Magic
-
-## New Features
-
+  
+##  New Features
+  
+  
 - Import a HTML file and watch it magically convert to Markdown
 - Drag and drop images (requires your Dropbox account be linked)
-
+  
 You can also:
-
+  
 - Import and save files from GitHub, Dropbox, Google Drive and One Drive
 - Drag and drop markdown and HTML files into Dillinger
 - Export documents as Markdown, HTML and PDF
-
+  
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
+  
 > The overriding design goal for Markdown's
 > formatting syntax is to make it as readable
 > as possible. The idea is that a
@@ -131,13 +144,14 @@ Markdown is a lightweight markup language based on the formatting conventions th
 > publishable as-is, as plain text, without
 > looking like it's been marked up with tags
 > or formatting instructions.
-
+  
 This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
-### Tech
-
+  
+###  Tech
+  
+  
 Dillinger uses a number of open source projects to work properly:
-
+  
 - [AngularJS] - HTML enhanced for web apps!
 - [Ace Editor] - awesome web-based text editor
 - [markdown-it] - Markdown parser done right. Fast and easy to extend.
@@ -145,35 +159,37 @@ Dillinger uses a number of open source projects to work properly:
 - [node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework [@tjholowaychuk]
 - [Gulp] - the streaming build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML to Markdown converter
+- [Breakdance](https://breakdance.github.io/breakdance/ ) - HTML to Markdown converter
 - [jQuery] - duh
-
+  
 And of course Dillinger itself is open source with a [public repository][dill]
  on GitHub.
-
-### Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
+  
+###  Installation
+  
+  
+Dillinger requires [Node.js](https://nodejs.org/ ) v4+ to run.
+  
 Install the dependencies and devDependencies and start the server.
-
+  
 ```sh
 cd dillinger
 npm install -d
 node app
 ```
-
+  
 For production environments...
-
+  
 ```sh
 npm install --production
 NODE_ENV=production node app
 ```
-
-### Plugins
-
+  
+###  Plugins
+  
+  
 Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.
-
+  
 | Plugin | README |
 | ------ | ------ |
 | Dropbox | [plugins/dropbox/README.md][PlDb] |
@@ -182,85 +198,85 @@ Dillinger is currently extended with the following plugins. Instructions on how 
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-### Development
-
+  
+###  Development
+  
+  
 Want to contribute? Great!
-
+  
 Dillinger uses Gulp + Webpack for fast developing.
 Make a change in your file and instantaneously see your updates!
-
+  
 Open your favorite Terminal and run these commands.
-
+  
 First Tab:
-
+  
 ```sh
 node app
 ```
-
+  
 Second Tab:
-
+  
 ```sh
 gulp watch
 ```
-
+  
 (optional) Third:
-
+  
 ```sh
 karma test
 ```
-
-#### Building for source
-
+  
+####  Building for source
+  
+  
 For production release:
-
+  
 ```sh
 gulp build --prod
 ```
-
+  
 Generating pre-built zip archives for distribution:
-
+  
 ```sh
 gulp build dist --prod
 ```
-
-### Docker
-
+  
+###  Docker
+  
+  
 Dillinger is very easy to install and deploy in a Docker container.
-
+  
 By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
-
+  
 ```sh
 cd dillinger
 docker build -t joemccann/dillinger:${package.json.version} .
 ```
-
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
-
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
-
-```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
+  
+This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `<img src="https://latex.codecogs.com/gif.latex?{package.json.version}`%20with%20the%20actual%20version%20of%20Dillinger.Once%20done,%20run%20the%20Docker%20image%20and%20map%20the%20port%20to%20whatever%20you%20wish%20on%20your%20host.%20In%20this%20example,%20we%20simply%20map%20port%208000%20of%20the%20host%20to%20port%208080%20of%20the%20Docker%20(or%20whatever%20port%20was%20exposed%20in%20the%20Dockerfile):```shdocker%20run%20-d%20-p%208000:8080%20--restart=&quot;always&quot;%20&lt;youruser&gt;&#x2F;dillinger:"/>{package.json.version}
 ```
-
+  
 Verify the deployment by navigating to your server address in your preferred browser.
-
+  
 ```sh
 127.0.0.1:8000
 ```
-
-#### Kubernetes + Google Cloud
-
-See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md)
-
-## License
-
+  
+####  Kubernetes + Google Cloud
+  
+  
+See [KUBERNETES.md](https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md )
+  
+##  License
+  
+  
 MIT
-
+  
 **Free Software, Hell Yeah!**
-
+  
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
+  
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [john gruber]: <http://daringfireball.net>
@@ -274,9 +290,10 @@ MIT
    [express]: <http://expressjs.com>
    [AngularJS]: <http://angularjs.org>
    [Gulp]: <http://gulpjs.com>
-
+  
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
    [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
    [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
    [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+  

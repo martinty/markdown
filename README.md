@@ -5,23 +5,28 @@ Document to demonstrate markdown syntax. Using Visual Studio Code with these ext
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 
 Can also use online editor [Drillinger](https://dillinger.io/)
 
-## Testing
+## Arrow
 
 &#8594; `&#8594;`
+
+## Footnote (don't work on github)
 
 Here's a sentence with a footnote. [^1]
 
 [^1]: This is the footnote.
 
+## Checkboxes
+
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
-## Math
+## Math (don't work on github)
 
 $$x = \frac{5 \delta}{\pi}$$
 
@@ -90,7 +95,7 @@ En fornuftig organisering av øvingene i faget kan se slik ut:
  ┣ 📂 ov04 \
  ┣ 📂 ...
 
-## Todos
+## Todo
 
 - Write MORE Tests
 - Add Night Mode

@@ -11,7 +11,7 @@ Can also use online editor [Drillinger](https://dillinger.io/)
 
 ## Testing
 
-&#8594;
+&#8594; `&#8594;`
 
 Here's a sentence with a footnote. [^1]
 
@@ -76,17 +76,18 @@ INSTALL_DIR_LIB=$(INSTALL_DIR)/lib/Graph_lib
 ## Folders
 
 En fornuftig organisering av øvingene i faget kan se slik ut:
-📦 TDT4102
- ┣ 📂 ov01
- ┃ ┣ 📂 .vscode
- ┃ ┣ 📜 Makefile
- ┃ ┗ 📜 main.cpp
- ┣ 📂 ov02
- ┃ ┣ 📂 .vscode
- ┃ ┣ 📜 Makefile
- ┃ ┗ 📜 main.cpp
- ┣ 📂 ov03
- ┣ 📂 ov04
+
+📦 TDT4102 \
+ ┣ 📂 ov01 \
+ ┃ ┣ 📂 .vscode \
+ ┃ ┣ 📜 Makefile \
+ ┃ ┗ 📜 main.cpp \
+ ┣ 📂 ov02 \
+ ┃ ┣ 📂 .vscode \
+ ┃ ┣ 📜 Makefile \
+ ┃ ┗ 📜 main.cpp \
+ ┣ 📂 ov03 \
+ ┣ 📂 ov04 \
  ┣ 📂 ...
 
 ## Todos

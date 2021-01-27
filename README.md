@@ -1,11 +1,16 @@
 # Markdown text editor
 
-Document to demonstrate markdown syntax. Using Visual Studio Code with these extensions:
+Document to demonstrate markdown syntax.
+
+Using Visual Studio Code with these extensions:
 
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-- [Markdown Preview Github Styling](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+
+Extra:
+
+- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 - [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 

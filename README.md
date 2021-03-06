@@ -16,6 +16,8 @@ Extra:
 
 Can also use online editor [Drillinger](https://dillinger.io/)
 
+[Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+
 ## Arrow
 
 &#8594; `&#8594;`
